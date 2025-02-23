@@ -20,16 +20,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <div>
-                <a class="navbar-brand" href="#">
-                    <img src="..\assets\images\logo.png" alt="Bootstrap" width="600" height="600">
-                </a>
-            </div>
-            <a class="navbar-brand" href="#">Tom Ogundimu</a>
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">            
+            <a class="navbar-brand" href="#">SOLUTIONS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -67,17 +62,36 @@
     </nav>
 
     <!-- HEADER -->
-    <header>
-
+    <header id="header">
+        <div class="container my-2">
+            <div class="col-12">
+                <img src="..\assets\images\logo.png" alt="hero image" width="550" height="450">
+            </div>
+        </div>
     </header>
 
     <!-- MAIN -->
-    <main>
-
+    <main id="main">
+        <div class="container">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+        </div>
     </main>
 
     <!-- FOOTER -->
-    <footer>
+    <footer id="footer">
 
     </footer>
 
