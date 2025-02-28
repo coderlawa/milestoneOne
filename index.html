@@ -22,87 +22,163 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- NAVIGATION -->
-    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand" href="#">SOLUTIONS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div>
-                    <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul> -->
-                </div>
-                <div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">SOLUTIONS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <!-- HEADER -->
     <header id="header">
-        <div class="container my-2">
-            <div class="col-12 col-md-6">
-                <img src="../assets/images/logo.png" alt="hero image" width="465" height="450" class="rounded">
+        <section id="hero" class="container my-2">
+            <div class="row">
+                <!-- mb-4 used to add margin under image -->
+                <div class="col-12 col-md-6">
+                    <!-- img-fluid class makes the image responsive to its container -->
+                    <img src="assets\images\techy.png" class="img-fluid" alt="Tom Ogundimu">
+                </div>
+                <!-- mb-4 used to add margin under text -->
+                <div class="col-12 col-md-6 align-self-center">
+                    <h1>
+                        Tom Ogundimu
+                    </h1> <br>
+                    <h2>
+                        Web Developer
+                    </h2> <br>
+                    <p>
+                        +44 7722 356858
+                    </p> <br>
+                    <p>
+                        tom.ogun@icloud.com
+                    </p>
+                </div>
             </div>
-        </div>
+        </section>
     </header>
 
     <!-- MAIN -->
     <main id="main">
         <div class="container">
-            <ul class="nav nav-tabs flex-column col-lg-5 text-center">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Download</a>
-                </li>
-            </ul>
+            <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills me-3 col-12 col-md-6" id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <button class="nav-link active" id="v-pills-about-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-about" type="button" role="tab" aria-controls="v-pills-about"
+                        aria-selected="true">About</button>
+                    <button class="nav-link" id="v-pills-education-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-education" type="button" role="tab" aria-controls="v-pills-education"
+                        aria-selected="false">Education</button>
+                    <button class="nav-link" id="v-pills-skills-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-skills" type="button" role="tab" aria-controls="v-pills-skills"
+                        aria-selected="false">Skills</button>
+                    <button class="nav-link" id="v-pills-portfolio-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-portfolio" type="button" role="tab" aria-controls="v-pills-portfolio"
+                        aria-selected="false">Portfolio</button>
+                    <button class="nav-link" id="v-pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-contact" type="button" role="tab" aria-controls="v-pills-contact"
+                        aria-selected="false">Contact</button>
+                </div>
+                <div class="tab-content justify-text-center" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-about" role="tabpanel"
+                        aria-labelledby="v-pills-about-tab" tabindex="0">ABOUT Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Sapiente nisi eaque atque consequatur. Vero, laudantium non molestiae quod
+                        provident nihil enim quam cumque minima rerum repellendus vel iste cum impedit.</div>
+                    <div class="tab-pane fade" id="v-pills-education" role="tabpanel"
+                        aria-labelledby="v-pills-education-tab" tabindex="0">EDUCATION Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Dolor, illo? Dolorum esse debitis recusandae nemo aliquam ducimus
+                        minus similique dolores error atque corporis cupiditate, tempora voluptatem facilis ratione
+                        itaque odio.</div>
+                    <div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab"
+                        tabindex="0">SKILLS Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                        doloribus? Corrupti libero accusamus fuga consequatur ipsum ratione quis porro numquam quisquam
+                        amet reprehenderit corporis cum, ex dicta pariatur quae incidunt.</div>
+                    <div class="tab-pane fade" id="v-pills-portfolio" role="tabpanel"
+                        aria-labelledby="v-pills-portfolio-tab" tabindex="0">PORTFOLIO Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Dolores tempora quas ducimus ullam. Temporibus eos nemo
+                        repudiandae sed cumque, maiores placeat minima reiciendis deserunt sunt officia ipsum, labore
+                        suscipit illum!</div>
+                    <div class="tab-pane fade" id="v-pills-contact" role="tabpanel"
+                        aria-labelledby="v-pills-contact-tab" tabindex="0">CONTACT Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Vero qui quaerat sed, doloremque totam natus, quam ullam at
+                        dolorem impedit voluptate? Voluptas temporibus error, nostrum quos quae velit deleniti
+                        laudantium?</div>
+                </div>
+            </div>
         </div>
     </main>
 
     <!-- FOOTER -->
     <footer id="footer">
-
+        <footer id="contact" class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center my-4">
+                    <h2 class="display-5">Contact</h2>
+                    <p class="mt-4">
+                        If you have any enquiries, don't hesitate to get in touch. <br> I am open
+                        to explore new frontiers and collaborating to create great ideas!
+                    </p>
+                </div>
+                <div class="col-12 col-md-10 col-lg-8 mb-4">
+                    <!-- add form here -->
+                    <form class="row g-3 sharp-corners">
+                        <div class="col-lg-4">
+                            <label for="full-name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="full-name">
+                        </div>
+                        <div class="col-lg-4">
+                            <label for="phonenumber" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="phonenumber">
+                        </div>
+                        <div class="col-lg-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary custom-button">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
     </footer>
 
     <!-- bootstrap script -->

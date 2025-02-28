@@ -8,9 +8,27 @@
 
 /* Global styles */
 body{
+padding-top: 56px;
+}
 
+h1,
+h2,
+p{
+    font-style: uppercase;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    /* replace height value with AUTO to be responsive */
+    max-height: 450px;
 }
 
 #main .nav{
     background-color: antiquewhite;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px){
+    
 }
