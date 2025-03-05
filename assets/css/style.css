@@ -28,8 +28,14 @@ img{
     max-height: 450px;
 }
 
+/* v-pills = tabs */
 #main .nav{
     background-color: antiquewhite;
+}
+
+#main .tab-content{
+    background-color: lightsalmon;
+    min-height: 160px;
 }
 
 /* MEDIA QUERY */
