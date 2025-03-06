@@ -3,7 +3,10 @@
 
 /* CSS Variable */
 :root{
-
+ --primary-font:
+ --secondary-font:
+ --primary-color:
+ --secondary-color:
 }
 
 /* Global styles */
@@ -23,9 +26,11 @@ h2{
 }
 
 img{
-    width: 100%;
+    width: 60vw;
     /* replace height value with AUTO to be responsive */
     max-height: 450px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* v-pills = tabs */

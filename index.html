@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tom Ogundimu | Web Developer</title>
 
-     <!-- FAVICON -->
-     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-     <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png">
-     <link rel="icon" type="image/png" href="assets/favicon/favicon-16x16.png">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-16x16.png">
 
     <!-- bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -68,7 +68,7 @@
                     to innovate and excel.
                 </p>
                 <!-- mb-5 gives extra margin spacing under lead text -->
-                <p class="lead mb-5">Looking forward to collaborating with you!</p>                
+                <p class="lead mb-5">Looking forward to collaborating with you!</p>
             </div>
         </section>
     </header>
@@ -76,32 +76,111 @@
     <main>
         <!-- About section links to #about href in navbar -->
         <section id="about" class="container">
-            <div class="row">
+            <div>
                 <!-- my-4 used to add top and bottom margin to heading -->
                 <div class="col-12 text-center my-4">
-                    <h2 class="display-5">More About Me</h2>
+                    <h2 class="display-5">Profile Picture</h2>
                 </div>
                 <!-- mb-4 used to add margin under image -->
-                <div class="col-12 col-md-6 mb-4">
+                <div class="col-12 mb-4 align-self-center">
                     <!-- img-fluid class makes the image responsive to its container -->
                     <img src="assets\images\techy.png" class="img-fluid" alt="Tom Ogundimu">
                 </div>
-                <!-- mb-4 used to add margin under text -->
-                <div class="col-12 col-md-6 mb-4">
-                    <p>As a web developer, I specialize in creating clean, efficient, and user-focused digital
-                        experiences. With a strong foundation in front-end technologies, I build
-                        responsive, high-performance websites that align with both user needs and business goals.
-                    </p>
-                    <p>I am passionate about writing well-structured code, optimizing performance, and staying up to
-                        date with the latest industry trends. Whether it is developing scalable applications,
-                        improving UI/UX, or solving complex technical challenges, I approach every project with
-                        precision and attention to detail.
-                    </p>
-                    <p>My goal is to bridge functionality with design, ensuring that every website or application is
-                        not only visually engaging but also intuitive and accessible. I thrive in collaborative
-                        environments, working closely with designers, content creators, and stakeholders to bring
-                        ideas to life in a seamless digital experience.
-                    </p>
+            </div>
+        </section>
+        <!-- Tabs for other infomation (i.e. About, Education, Skills & Portfolio) -->
+        <section>
+            <div class="container" id="tabs">
+                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="about-tab" data-bs-toggle="tab"
+                            data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane"
+                            aria-selected="true">About</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="education-tab" data-bs-toggle="tab"
+                            data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane"
+                            aria-selected="false">Education</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="skills-tab" data-bs-toggle="tab"
+                            data-bs-target="#skills-tab-pane" type="button" role="tab" aria-controls="skills-tab-pane"
+                            aria-selected="false">Skills</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab"
+                            data-bs-target="#portfolio-tab-pane" type="button" role="tab" aria-controls="portfolio-tab-pane"
+                            aria-selected="false">Portfolio</button>
+                    </li>
+                </ul>
+                <div class="tab-content bg-light" id="myTabContent">
+                    <div class="tab-pane fade show active" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab"
+                        tabindex="0"><div class="overflow-auto" style="height: 200px;">
+                            <p>As a web developer, I specialize in creating clean, efficient, and user-focused digital
+                                experiences. With a strong foundation in front-end technologies, I build
+                                responsive, high-performance websites that align with both user needs and business goals.
+                            </p>
+                            <p>I am passionate about writing well-structured code, optimizing performance, and staying up to
+                                date with the latest industry trends. Whether it is developing scalable applications,
+                                improving UI/UX, or solving complex technical challenges, I approach every project with
+                                precision and attention to detail.
+                            </p>
+                            <p>My goal is to bridge functionality with design, ensuring that every website or application is
+                                not only visually engaging but also intuitive and accessible. I thrive in collaborative
+                                environments, working closely with designers, content creators, and stakeholders to bring
+                                ideas to life in a seamless digital experience.
+                            </p>
+                        </div></div>
+                    <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab"
+                        tabindex="0"><div class="overflow-auto" style="height: 200px;">
+                            <p>My educational background includes a Bachelor's degree in Computer Science from the
+                                University of Technology, Sydney. During my studies, I developed a strong foundation in
+                                programming languages, algorithms, and data structures, which laid the groundwork for my
+                                career in web development.
+                            </p>
+                            <p>After completing my degree, I pursued further training in front-end technologies, including
+                                HTML, CSS, and JavaScript. I also expanded my skill set by learning popular frameworks such
+                                as React and Angular, which allowed me to create dynamic, interactive web applications.
+                            </p>
+                            <p>My education has equipped me with the technical knowledge and problem-solving skills needed to
+                                excel in the fast-paced world of web development. I continue to expand my expertise through
+                                online courses, workshops, and hands-on projects, staying current with the latest tools and
+                                technologies in the industry.
+                            </p>
+                        </div></div>
+                    <div class="tab-pane fade" id="skills-tab-pane" role="tabpanel" aria-labelledby="skills-tab"
+                        tabindex="0"><div class="overflow-auto" style="height: 200px;">
+                            <p>As a web developer, I have a diverse skill set that allows me to create innovative and
+                                user-friendly digital experiences. From front-end technologies to back-end frameworks, I
+                                leverage a range of tools and languages to build high-performance websites and applications.
+                            </p>
+                            <p>My technical skills include proficiency in HTML, CSS, and JavaScript, as well as experience
+                                with popular front-end frameworks such as React and Angular. I am also well-versed in
+                                back-end technologies, including Node.js, Express, and MongoDB, which enable me to develop
+                                robust and scalable web applications.
+                            </p>
+                            <p>In addition to my technical expertise, I have a keen eye for design and a strong understanding
+                                of user experience principles. I am skilled in creating responsive layouts, optimizing
+                                performance, and ensuring accessibility across all devices and browsers. I also have
+                                experience with version control systems such as Git, which allows me to collaborate
+                                effectively with other developers and track changes to codebases.
+                            </p>
+                        </div></div>
+                    <div class="tab-pane fade" id="portfolio-tab-pane" role="tabpanel" aria-labelledby="portfolio-tab"
+                        tabindex="0"><div class="overflow-auto" style="height: 200px;">
+                            <p>As a web developer, I have had the opportunity to work on a variety of projects that showcase
+                                my skills and expertise. From e-commerce websites to interactive web applications, each
+                                project has allowed me to push the boundaries of what is possible in the digital space.
+                            </p>
+                            <p>My portfolio includes projects that demonstrate my ability to create responsive, user-friendly
+                                websites that engage and inspire users. Whether it is designing a sleek, modern interface or
+                                implementing complex functionality, I approach each project with creativity and precision.
+                            </p>
+                            <p>I take pride in my work and strive to deliver high-quality solutions that exceed client
+                                expectations. By combining my technical skills with a keen eye for design, I create digital
+                                experiences that are not only visually stunning but also intuitive and accessible to users.
+                            </p>
+                        </div></div>
                 </div>
             </div>
         </section>
@@ -183,12 +262,12 @@
                 <h2 class="display-5">Contact</h2>
                 <p class="mt-4">
                     If you have any enquiries, don't hesitate to get in touch. <br> I am open
-                        to explore new frontiers and collaborating to create great ideas!
+                    to explore new frontiers and collaborating to create great ideas!
                 </p>
             </div>
             <div class="col-12 col-md-10 col-lg-8 mb-4">
                 <!-- add form here -->
-                <form class="row g-3 sharp-corners">
+                <form class="row g-3 sharp-corners bg-light pb-3">
                     <div class="col-lg-4">
                         <label for="full-name" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="full-name">
@@ -205,14 +284,14 @@
                         <label for="message" class="form-label">Message</label>
                         <textarea class="form-control" id="message" rows="3"></textarea>
                     </div>
-                    <div class="d-grid gap-2 justify-content-center col-12">
+                    <div class="d-grid gap-2 justify-content-center col-12 rounded-pill">
                         <button type="submit" class="btn btn-primary custom-button">Submit</button>
                     </div>
                 </form>
             </div>
         </div>
     </footer>
-    
+
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
     <script>
         document
@@ -235,4 +314,5 @@
             });
     </script>
 </body>
+
 </html>
