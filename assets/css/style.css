@@ -3,10 +3,11 @@
 
 /* CSS Variable */
 :root{
- --primary-font:
- --secondary-font:
- --primary-color:
- --secondary-color:
+ --primary-font: ;
+ --secondary-font: ;
+ --primary-color: #3a5a40;
+ --secondary-color: #dad7cd;
+ --tetiary-color: #a3b18a;
 }
 
 /* Global styles */
