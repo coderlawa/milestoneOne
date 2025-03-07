@@ -2,32 +2,32 @@
 
 
 /* CSS Variable */
-:root{
- --primary-font: ;
- --secondary-font: ;
- --primary-color: #3a5a40;
- --secondary-color: #dad7cd;
- --tetiary-color: #a3b18a;
+:root {
+    --primary-font: ;
+    --secondary-font: ;
+    --primary-color: #3a5a40;
+    --secondary-color: #dad7cd;
+    --tetiary-color: #a3b18a;
 }
 
 /* Global styles */
-body{
-padding-top: 56px;
+body {
+    padding-top: 56px;
 }
 
 h1,
 h2,
-p{
+p {
     text-align: center;
 }
 
 h1,
-h2{
+h2 {
     text-transform: uppercase;
 }
 
-img{
-    width: 60vw;
+img {
+    width: 85vw;
     /* replace height value with AUTO to be responsive */
     max-height: 450px;
     display: block;
@@ -35,16 +35,45 @@ img{
 }
 
 /* v-pills = tabs */
-#main .nav{
+#main .nav {
     background-color: antiquewhite;
 }
 
-#main .tab-content{
+#main .tab-content {
     background-color: lightsalmon;
     min-height: 160px;
 }
 
 /* MEDIA QUERY */
-@media (max-width: 768px){
-    
+
+/* MEDIUM DEVICES (tablets) */
+@media screen and (min-width: 768px) {
+    img {
+        width: 55vw;
+        min-height: 45vh;
+    }
+}
+
+/* LARGE DEVICES (small laptops) */
+@media screen and (min-width: 992px) {
+    img {
+        width: 48vw;
+        min-height: 50vh;
+    }
+}
+
+/* XL DEVICES (laptops) */
+@media screen and (min-width: 1200px) {
+    img {
+        width: 40vw;
+        max-height: ;
+    }
+}
+
+/* XXL DEVICES (desktops) */
+@media screen and (min-width: 1400px) {
+    img {
+        width: 35vw;
+        min-height: 60vh;
+    }
 }
