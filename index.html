@@ -19,8 +19,8 @@
 </head>
 
 <body>
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
+    <!-- NAVIGATION -->
+    <nav id="navbar" class="navbar navbar-expand-sm fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">SOLUTIONS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -33,14 +33,12 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#tabs">Profile</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#cont">Contact</a>
                     </li> -->
-
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
@@ -90,7 +88,7 @@
         </section>
         <!-- Tabs for other infomation (i.e. About, Education, Skills & Portfolio) -->
         <section>
-            <div class="container" id="tabs">
+            <div class="container section" id="tabs">
                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="about-tab" data-bs-toggle="tab"
@@ -115,7 +113,7 @@
                 </ul>
                 <div class="tab-content bg-light" id="myTabContent">
                     <div class="tab-pane fade show active" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab"
-                        tabindex="0"><div class="overflow-auto" style="height: 200px;">
+                        tabindex="0"><div class="overflow-box">
                             <p>As a web developer, I specialize in creating clean, efficient, and user-focused digital
                                 experiences. With a strong foundation in front-end technologies, I build
                                 responsive, high-performance websites that align with both user needs and business goals.
@@ -132,7 +130,7 @@
                             </p>
                         </div></div>
                     <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab"
-                        tabindex="0"><div class="overflow-auto" style="height: 200px;">
+                        tabindex="0"><div class="overflow-box">
                             <p>My educational background includes a Bachelor's degree in Computer Science from the
                                 University of Technology, Sydney. During my studies, I developed a strong foundation in
                                 programming languages, algorithms, and data structures, which laid the groundwork for my
@@ -149,7 +147,7 @@
                             </p>
                         </div></div>
                     <div class="tab-pane fade" id="skills-tab-pane" role="tabpanel" aria-labelledby="skills-tab"
-                        tabindex="0"><div class="overflow-auto" style="height: 200px;">
+                        tabindex="0"><div class="overflow-box">
                             <p>As a web developer, I have a diverse skill set that allows me to create innovative and
                                 user-friendly digital experiences. From front-end technologies to back-end frameworks, I
                                 leverage a range of tools and languages to build high-performance websites and applications.
@@ -167,7 +165,7 @@
                             </p>
                         </div></div>
                     <div class="tab-pane fade" id="portfolio-tab-pane" role="tabpanel" aria-labelledby="portfolio-tab"
-                        tabindex="0"><div class="overflow-auto" style="height: 200px;">
+                        tabindex="0"><div class="overflow-box">
                             <p>As a web developer, I have had the opportunity to work on a variety of projects that showcase
                                 my skills and expertise. From e-commerce websites to interactive web applications, each
                                 project has allowed me to push the boundaries of what is possible in the digital space.

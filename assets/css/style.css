@@ -24,14 +24,26 @@ p {
 h1,
 h2 {
     text-transform: uppercase;
+    color: var(--primary-color);
 }
 
+/* NAVBAR */
+#navbar {
+    background-color: var(--tetiary-color);
+}
+
+/* HERO IMAGE */
 img {
     width: 85vw;
     /* replace height value with AUTO to be responsive */
     max-height: 450px;
     display: block;
     margin: 0 auto;
+}
+
+.section {
+    /* to prevent navbar overlap */
+    padding-top: 4rem;
 }
 
 /* v-pills = tabs */
@@ -43,6 +55,14 @@ img {
     background-color: lightsalmon;
     min-height: 160px;
 }
+
+.overflow-box {
+    height: 200px;
+    border: 0.1px solid gray;
+    overflow: auto;
+    padding: 10px;
+}
+
 
 /* MEDIA QUERY */
 
