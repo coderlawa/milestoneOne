@@ -22,7 +22,7 @@
     <!-- NAVIGATION -->
     <nav id="navbar" class="navbar navbar-expand-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">SOLUTIONS</a>
+            <a class="navbar-brand nav-link" href="index.html"><i class="fa-solid fa-terminal"> coderlawa</i></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#tabs">Profile</a>
@@ -47,17 +47,17 @@
         </div>
     </nav>
     <!-- HEADER CONTENT -->
-    <header id="hero" class="container">
+    <header id="hero" class="container section">
         <!-- section with hero image -->
         <section class="row">
             <!-- text-center class used to centre all text inside column -->
             <div class="col-12 text-center">
                 <h1 class="display-4 my-4">Tom Ogundimu</h1>
                 <!-- mb-5 gives extra margin spacing under subheading -->
-                <h2 class="display-6 mb-5">Web Developer</h2>
-               
+                <h2 class="display-6 mb-2">Web Developer</h2>
+
                 <!-- mb-5 gives extra margin spacing under lead text -->
-                <p class="lead mb-5">Looking forward to collaborating with you!</p>
+                <p class="lead mb-5">Let's work ASAP!!</p>
             </div>
         </section>
     </header>
@@ -69,8 +69,7 @@
                 <!-- my-4 used to add top and bottom margin to heading -->
                 <div class="col-12 col-md-6 mb-4 align-self-center">
                     <p>
-                        Hello! I'm Tom, a
-                        <strong>passionate and creative Software Developer</strong>
+                        Hello! I'm Tom, a <strong>passionate and creative Software Developer</strong>
                         commited to building engaging, user-friendly websites and
                         applications. With a keen eye for details and a passion for codes,
                         <strong>I translate complex ideas into smooth, accessible digital
@@ -87,7 +86,7 @@
             </div>
         </section>
         <!-- Tabs for other infomation (i.e. About, Education, Skills & Portfolio) -->
-        <section>
+        <section class="mb-4">
             <div class="container section" id="tabs">
                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -97,152 +96,113 @@
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="education-tab" data-bs-toggle="tab"
-                            data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane"
-                            aria-selected="false">Education</button>
+                            data-bs-target="#education-tab-pane" type="button" role="tab"
+                            aria-controls="education-tab-pane" aria-selected="false">Education</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="skills-tab" data-bs-toggle="tab"
-                            data-bs-target="#skills-tab-pane" type="button" role="tab" aria-controls="skills-tab-pane"
+                        <button class="nav-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills-tab-pane"
+                            type="button" role="tab" aria-controls="skills-tab-pane"
                             aria-selected="false">Skills</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab"
-                            data-bs-target="#portfolio-tab-pane" type="button" role="tab" aria-controls="portfolio-tab-pane"
-                            aria-selected="false">Portfolio</button>
+                            data-bs-target="#portfolio-tab-pane" type="button" role="tab"
+                            aria-controls="portfolio-tab-pane" aria-selected="false">Portfolio</button>
                     </li>
                 </ul>
-                <div class="tab-content bg-light" id="myTabContent">
-                    <div class="tab-pane fade show active" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab"
-                        tabindex="0"><div class="overflow-box">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="about-tab-pane" role="tabpanel"
+                        aria-labelledby="about-tab" tabindex="0">
+                        <div class="overflow-box">
                             <p>As a web developer, I specialize in creating clean, efficient, and user-focused digital
                                 experiences. With a strong foundation in front-end technologies, I build
-                                responsive, high-performance websites that align with both user needs and business goals.
+                                responsive, high-performance websites that align with both user needs and business
+                                goals.
                             </p>
-                            <p>I am passionate about writing well-structured code, optimizing performance, and staying up to
+                            <p>I am passionate about writing well-structured code, optimizing performance, and staying
+                                up to
                                 date with the latest industry trends. Whether it is developing scalable applications,
                                 improving UI/UX, or solving complex technical challenges, I approach every project with
                                 precision and attention to detail.
                             </p>
-                            <p>My goal is to bridge functionality with design, ensuring that every website or application is
+                            <p>My goal is to bridge functionality with design, ensuring that every website or
+                                application is
                                 not only visually engaging but also intuitive and accessible. I thrive in collaborative
-                                environments, working closely with designers, content creators, and stakeholders to bring
+                                environments, working closely with designers, content creators, and stakeholders to
+                                bring
                                 ideas to life in a seamless digital experience.
                             </p>
-                        </div></div>
+                        </div>
+                    </div>
                     <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab"
-                        tabindex="0"><div class="overflow-box">
+                        tabindex="0">
+                        <div class="overflow-box">
                             <p>My educational background includes a Bachelor's degree in Computer Science from the
                                 University of Technology, Sydney. During my studies, I developed a strong foundation in
                                 programming languages, algorithms, and data structures, which laid the groundwork for my
                                 career in web development.
                             </p>
-                            <p>After completing my degree, I pursued further training in front-end technologies, including
-                                HTML, CSS, and JavaScript. I also expanded my skill set by learning popular frameworks such
+                            <p>After completing my degree, I pursued further training in front-end technologies,
+                                including
+                                HTML, CSS, and JavaScript. I also expanded my skill set by learning popular frameworks
+                                such
                                 as React and Angular, which allowed me to create dynamic, interactive web applications.
                             </p>
-                            <p>My education has equipped me with the technical knowledge and problem-solving skills needed to
-                                excel in the fast-paced world of web development. I continue to expand my expertise through
-                                online courses, workshops, and hands-on projects, staying current with the latest tools and
+                            <p>My education has equipped me with the technical knowledge and problem-solving skills
+                                needed to
+                                excel in the fast-paced world of web development. I continue to expand my expertise
+                                through
+                                online courses, workshops, and hands-on projects, staying current with the latest tools
+                                and
                                 technologies in the industry.
                             </p>
-                        </div></div>
+                        </div>
+                    </div>
                     <div class="tab-pane fade" id="skills-tab-pane" role="tabpanel" aria-labelledby="skills-tab"
-                        tabindex="0"><div class="overflow-box">
+                        tabindex="0">
+                        <div class="overflow-box">
                             <p>As a web developer, I have a diverse skill set that allows me to create innovative and
                                 user-friendly digital experiences. From front-end technologies to back-end frameworks, I
-                                leverage a range of tools and languages to build high-performance websites and applications.
+                                leverage a range of tools and languages to build high-performance websites and
+                                applications.
                             </p>
-                            <p>My technical skills include proficiency in HTML, CSS, and JavaScript, as well as experience
+                            <p>My technical skills include proficiency in HTML, CSS, and JavaScript, as well as
+                                experience
                                 with popular front-end frameworks such as React and Angular. I am also well-versed in
-                                back-end technologies, including Node.js, Express, and MongoDB, which enable me to develop
+                                back-end technologies, including Node.js, Express, and MongoDB, which enable me to
+                                develop
                                 robust and scalable web applications.
                             </p>
-                            <p>In addition to my technical expertise, I have a keen eye for design and a strong understanding
+                            <p>In addition to my technical expertise, I have a keen eye for design and a strong
+                                understanding
                                 of user experience principles. I am skilled in creating responsive layouts, optimizing
                                 performance, and ensuring accessibility across all devices and browsers. I also have
                                 experience with version control systems such as Git, which allows me to collaborate
                                 effectively with other developers and track changes to codebases.
                             </p>
-                        </div></div>
+                        </div>
+                    </div>
                     <div class="tab-pane fade" id="portfolio-tab-pane" role="tabpanel" aria-labelledby="portfolio-tab"
-                        tabindex="0"><div class="overflow-box">
-                            <p>As a web developer, I have had the opportunity to work on a variety of projects that showcase
+                        tabindex="0">
+                        <div class="overflow-box">
+                            <p>As a web developer, I have had the opportunity to work on a variety of projects that
+                                showcase
                                 my skills and expertise. From e-commerce websites to interactive web applications, each
                                 project has allowed me to push the boundaries of what is possible in the digital space.
                             </p>
-                            <p>My portfolio includes projects that demonstrate my ability to create responsive, user-friendly
-                                websites that engage and inspire users. Whether it is designing a sleek, modern interface or
-                                implementing complex functionality, I approach each project with creativity and precision.
+                            <p>My portfolio includes projects that demonstrate my ability to create responsive,
+                                user-friendly
+                                websites that engage and inspire users. Whether it is designing a sleek, modern
+                                interface or
+                                implementing complex functionality, I approach each project with creativity and
+                                precision.
                             </p>
                             <p>I take pride in my work and strive to deliver high-quality solutions that exceed client
-                                expectations. By combining my technical skills with a keen eye for design, I create digital
-                                experiences that are not only visually stunning but also intuitive and accessible to users.
+                                expectations. By combining my technical skills with a keen eye for design, I create
+                                digital
+                                experiences that are not only visually stunning but also intuitive and accessible to
+                                users.
                             </p>
-                        </div></div>
-                </div>
-            </div>
-        </section>
-        <!-- portfolio section starts here -->
-        <section id="portfolio" class="container pb-4">
-            <div class="row">
-                <!-- my-4 used to add top and bottom margin to heading -->
-                <div class="col-12 text-center my-4">
-                    <h2 class="display-5">Portfolio</h2>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="card mb-3 sharp-corners">
-                        <img src="assets\images\wags-and-walks.webp" class="card-img-top"
-                            alt="A man walking several dogs early in the morning">
-                        <div class="card-body">
-                            <h3 class="card-title">Wags & Walks</h3>
-                            <p class="card-text">A platform for a dog walking service designed to fit the busy
-                                lifestyles of pet owners. Focused on
-                                promoting a healthy life for dogs, this site showcases convenient scheduling options and
-                                services.</p>
-                            <a href="#" class="btn btn-outline-secondary">Visit site</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="card mb-3 sharp-corners">
-                        <img src="assets\images\we-wellness.webp" class="card-img-top"
-                            alt="A spa with candles towels and natural material">
-                        <div class="card-body">
-                            <h3 class="card-title">We Wellness</h3>
-                            <p class="card-text">A comprehensive platform offering a wide range of wellness services and
-                                high-end products. From
-                                yoga classes to nutritional guidance, users can find everything they need to nurture
-                                their body, mind, and spirit.
-                            </p>
-                            <a href="#" class="btn btn-outline-secondary">Visit site</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="card mb-3 sharp-corners">
-                        <img src="assets\images\math-wiz.webp" class="card-img-top"
-                            alt="A child practicing math at a computer">
-                        <div class="card-body">
-                            <h3 class="card-title">Math Wiz</h3>
-                            <p class="card-text">An interactive website dedicated to helping kids master mathematics
-                                through games and challenges.
-                                Designed with young learners in mind, this platform turns complex problems into engaging
-                                activities.</p>
-                            <a href="#" class="btn btn-outline-secondary">Visit site</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="card mb-3 sharp-corners">
-                        <img src="assets\images\bmi-calculator.webp" class="card-img-top"
-                            alt="Weighing scales seen from the first person view of the person standing on the scales">
-                        <div class="card-body">
-                            <h3 class="card-title">BMI Calculator</h3>
-                            <p class="card-text">Promoting a healthier lifestyle with an easy-to-use BMI Calculator.
-                                Designed to provide quick
-                                health assessments, this tool helps users understand and manage their body mass index
-                                with just a few clicks.</p>
-                            <a href="#" class="btn btn-outline-secondary">Visit site</a>
                         </div>
                     </div>
                 </div>
@@ -257,7 +217,7 @@
     <footer id="contact" class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-center my-4">
-                <h2 class="display-5">Contact</h2>
+                <h2 class="display-5">Contact <i class="fa-solid fa-file-signature"></i></h2>
                 <p class="mt-4">
                     If you have any enquiries, don't hesitate to get in touch. <br> I am open
                     to explore new frontiers and collaborating to create great ideas!
@@ -265,7 +225,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 mb-4">
                 <!-- add form here -->
-                <form class="row g-3 sharp-corners bg-light pb-3">
+                <form class="row g-3 sharp-corners bg-opacity pb-3">
                     <div class="col-lg-4">
                         <label for="full-name" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="full-name">
@@ -283,12 +243,15 @@
                         <textarea class="form-control" id="message" rows="3"></textarea>
                     </div>
                     <div class="d-grid gap-2 justify-content-center col-12 rounded-pill">
-                        <button type="submit" class="btn btn-primary custom-button">Submit</button>
+                        <button type="submit" class="btn btn-primary custom-button-filled">Submit</button>
                     </div>
                 </form>
             </div>
         </div>
     </footer>
+
+    <!-- fontawesome script -->
+    <script src="https://kit.fontawesome.com/0a3337c4c9.js" crossorigin="anonymous"></script>
 
     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
     <script>

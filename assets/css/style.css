@@ -13,17 +13,24 @@
 /* Global styles */
 body {
     padding-top: 56px;
-}
-
-h1,
-h2,
-p {
-    text-align: center;
+    background-color: var(--secondary-color);
 }
 
 h1,
 h2 {
+    text-align: center;
+    color: var(--primary-color);
     text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    color: var(--primary-color); /* Change this to your desired color */
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+}
+
+label {
     color: var(--primary-color);
 }
 
@@ -46,21 +53,54 @@ img {
     padding-top: 4rem;
 }
 
-/* v-pills = tabs */
-#main .nav {
-    background-color: antiquewhite;
+/* Buttons */
+
+.custom-button-filled{
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
 }
 
-#main .tab-content {
-    background-color: lightsalmon;
-    min-height: 160px;
+.custom-button-filled:hover{
+    border: 2px solid var(--tetiary-color);
+    background-color: var(--tetiary-color);
+    color: white;
+}
+
+/* nav-links */
+
+.nav-link {
+    color: var(--primary-color);
+    font-weight: bold;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0 10px; /* Adjust the padding as needed */
+
+}
+
+.nav-link:hover {
+    background-color: var(--tetiary-color);
+    color: white;
+}
+
+.nav-link.active {
+    color: var(--secondary-color); /* Change this to your desired active color */
+    background-color: var(--tetiary-color); /* Optional: Change background color for active link */
 }
 
 .overflow-box {
     height: 200px;
     border: 0.1px solid gray;
-    overflow: auto;
+    overflow: auto; /* enables scrolling */
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+/* opaque back */
+.bg-opacity {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 
