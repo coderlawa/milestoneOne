@@ -42,7 +42,7 @@ label {
 }
 
 /* NAVBAR */
-#navbar {
+.navbar {
     background-color: var(--tetiary-color);
     min-height: 10vh;
 }
@@ -112,6 +112,14 @@ img {
 /* opaque back */
 .bg-opacity {
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* SOCIALS */
+.social-icon {
+    font-size: 2rem;
+    transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
 }
 
 /* MEDIA QUERY */
