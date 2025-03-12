@@ -1,10 +1,10 @@
 /* google font import */
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* CSS Variable */
 :root {
-    --primary-font: ;
-    --secondary-font: ;
+    --primary-font: "Tomorrow", sans-serif;
+    --secondary-font: "Space Grotesk", sans-serif;
     --primary-color: #3a5a40;
     --secondary-color: #dad7cd;
     --tetiary-color: #a3b18a;
@@ -18,16 +18,23 @@ body {
 
 h1,
 h2 {
+    font-family: var(--primary-font);
     text-align: center;
     color: var(--primary-color);
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 p {
+    font-family: var(--secondary-font);
+    font-weight: bold;
     text-align: center;
-    color: var(--primary-color); /* Change this to your desired color */
-    font-size: 16px; /* Adjust the font size as needed */
-    line-height: 1.5; /* Adjust the line height as needed */
+    color: var(--primary-color);
+    /* Change this to your desired color */
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    line-height: 1.5;
+    /* Adjust the line height as needed */
 }
 
 label {
@@ -37,6 +44,29 @@ label {
 /* NAVBAR */
 #navbar {
     background-color: var(--tetiary-color);
+    min-height: 10vh;
+}
+
+.nav-link {
+    color: var(--primary-color);
+    font-weight: bold;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0 10px;
+    /* Adjust the padding as needed */
+}
+
+.nav-link:hover {
+    background-color: var(--tetiary-color);
+    color: white;
+}
+
+.nav-link.active {
+    color: var(--secondary-color);
+    /* Change this to your desired active color */
+    background-color: var(--tetiary-color);
+    /* Optional: Change background color for active link */
 }
 
 /* HERO IMAGE */
@@ -55,44 +85,25 @@ img {
 
 /* Buttons */
 
-.custom-button-filled{
+.custom-button-filled {
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
     color: white;
 }
 
-.custom-button-filled:hover{
+.custom-button-filled:hover {
     border: 2px solid var(--tetiary-color);
     background-color: var(--tetiary-color);
     color: white;
 }
 
-/* nav-links */
-
-.nav-link {
-    color: var(--primary-color);
-    font-weight: bold;
-    overflow-x: auto;
-    white-space: nowrap;
-    display: inline-block;
-    padding: 0 10px; /* Adjust the padding as needed */
-
-}
-
-.nav-link:hover {
-    background-color: var(--tetiary-color);
-    color: white;
-}
-
-.nav-link.active {
-    color: var(--secondary-color); /* Change this to your desired active color */
-    background-color: var(--tetiary-color); /* Optional: Change background color for active link */
-}
+/* TABS */
 
 .overflow-box {
     height: 200px;
     border: 0.1px solid gray;
-    overflow: auto; /* enables scrolling */
+    overflow: auto;
+    /* enables scrolling */
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
@@ -102,7 +113,6 @@ img {
 .bg-opacity {
     background-color: rgba(255, 255, 255, 0.5);
 }
-
 
 /* MEDIA QUERY */
 
