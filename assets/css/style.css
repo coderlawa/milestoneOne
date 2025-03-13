@@ -90,6 +90,9 @@ img {
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
     color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: var(--primary-font);
 }
 
 .custom-button-filled:hover {
@@ -99,6 +102,21 @@ img {
 }
 
 /* TABS */
+.tab {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 17px;
+    font-family: var(--primary-font);
+    flex-wrap: nowrap;
+    display: inline-block;
+    padding: 0 15px;
+    /* Adjust the padding as needed */
+}
+
+.tab:hover {
+    background-color: var(--tetiary-color);
+    color: white;
+}
 
 .overflow-box {
     height: 200px;
