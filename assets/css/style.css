@@ -17,7 +17,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--primary-font);
     text-align: center;
     color: var(--primary-color);
@@ -80,7 +81,7 @@ img {
 
 .section {
     /* to prevent navbar overlap */
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 
 /* Buttons */
@@ -114,7 +115,13 @@ img {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* SOCIALS */
+/* FOOTER */
+footer {
+    background-color: var(--tetiary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+}
 .social-icon {
     font-size: 2rem;
     transition: color 0.3s ease-in-out;
