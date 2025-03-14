@@ -38,12 +38,22 @@ p {
     /* Adjust the line height as needed */
 }
 
+.section {
+    /* to prevent navbar overlap */
+    padding-top: 5rem;
+}
+
 label {
     color: var(--primary-color);
 }
 
 strong {
     font-size: larger;
+}
+
+/* opaque back */
+.bg-opacity {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* NAVBAR */
@@ -81,11 +91,6 @@ img {
     max-height: 450px;
     display: block;
     margin: 0 auto;
-}
-
-.section {
-    /* to prevent navbar overlap */
-    padding-top: 5rem;
 }
 
 /* Buttons */
@@ -132,9 +137,16 @@ img {
     border-radius: 5px;
 }
 
-/* opaque back */
-.bg-opacity {
-    background-color: rgba(255, 255, 255, 0.5);
+/* CARDS */
+
+.card {
+    background-color: var(--tetiary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* FOOTER */
