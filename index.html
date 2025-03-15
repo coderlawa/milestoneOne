@@ -318,6 +318,8 @@
             </div>
     </footer>
 
+    <!-- Back to Top Button -->
+    <button id="backToTop"><i class="fa-solid fa-circle-up"></i></button>
 
     <!-- bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -347,6 +349,28 @@
                     }
                 });
             });
+    </script>
+
+    <!-- JavaScript code for Back to Top Button -->
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
+
+        // Show button when scrolling down
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 150) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        });
+
+        // Scroll smoothly to the top when clicked
+        backToTopButton.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
     </script>
 </body>
 
