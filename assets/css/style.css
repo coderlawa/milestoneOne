@@ -150,24 +150,23 @@ img {
 }
 
 /* back to top button */
-/* Style for the button */
 #backToTop {
     position: fixed;
-    bottom: 35px;
+    bottom: 90px;
     right: 35px;
     display: none;
-    background-color: var(--primary-color);
-    color: white;
+    color: var(--primary-color);
+    background-color: transparent;
     border: none;
-    padding: 1px 10px;
-    border-radius: 30px;
+    padding: 0px 0px;
+    border-radius: 50px;
     cursor: pointer;
-    font-size: 55px;
+    font-size: 70px;
     transition: opacity 0.3s ease-in-out;
 }
 
 #backToTop:hover {
-    background-color: var(--tetiary-color);
+    color: var(--tetiary-color);
 }
 
 /* FOOTER */
@@ -185,6 +184,19 @@ footer {
 }
 
 /* MEDIA QUERY */
+
+/* SMALL DEVICES (mobile phones) */
+@media screen and (max-width: 576px) {
+    img {
+        width: 80vw;
+        min-height: 40vh;
+    }
+
+    #backToTop {
+        bottom: 40px;
+        right: 20px;
+    }
+}
 
 /* MEDIUM DEVICES (tablets) */
 @media screen and (min-width: 768px) {
