@@ -86,9 +86,6 @@ strong {
 
 /* HERO IMAGE */
 img {
-    width: 85vw;
-    /* replace height value with AUTO to be responsive */
-    max-height: 450px;
     display: block;
     margin: 0 auto;
 }
@@ -149,6 +146,10 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.card-body {
+    padding: 10px;
+}
+
 /* back to top button */
 #backToTop {
     position: fixed;
@@ -203,6 +204,10 @@ footer {
     img {
         width: 55vw;
         min-height: 45vh;
+    }
+
+    .card-text{
+        min-height: 50px;
     }
 }
 
