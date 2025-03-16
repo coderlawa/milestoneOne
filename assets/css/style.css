@@ -236,7 +236,7 @@ footer {
 /* XXL DEVICES (desktops) */
 @media screen and (min-width: 1400px) {
     img {
-        min-height: 60vh;
+        min-height: auto;
         width: 30vw;
     }
 }
