@@ -229,7 +229,7 @@ footer {
 @media screen and (min-width: 1200px) {
     img {
         width: auto;
-        max-height: auto;
+        max-height: 40vh;
     }
 }
 
