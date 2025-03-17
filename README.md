@@ -14,9 +14,17 @@ This website has been built to accomodate most visitors needs, regardless of the
 
 ## TABLE OF CONTENT
 
-* [User Experience (UX)](#User-Experience-(UX))
-    * [Initial Discussion](#Initial-Discussion)
-    * [User Stories](#User-Stories)
+* [User Experience (UX)](#user-experience-ux)
+    * [Initial Discussion](#initial-discussion)
+    * [User Stories](#user-stories)
+
+* [Design](#design)
+    * [Color Scheme](#color-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Wireframes](#wireframes)
+    * [Features](#features)
+    * [Accessibility](#accessibility)
 
 - - -
 
@@ -51,6 +59,49 @@ CODERLAWA is the psuedonym used by Tom Ogundimu on GitHub. The site has been cre
 * I want to view previously completed sites.
 * I want to send the developer a message.
 
-#### Returning Visitor Goals
+#### Frequent & Returning Visitor Goals
 
-* 
+* I want to find updates of the dev's portfolio.
+* I want to send the developer a message.
+
+- - - 
+
+## Design
+
+### Color Scheme
+
+![CODERLAWA website color palette](docs/colors.png)
+
+This website uses a palette of greens to provide visitors a healthy visual experience. The color scheme was picked from [Coolors](https://coolors.co/).
+
+### Typography
+
+[Google Fonts](https://fonts.google.com/) is the exclusive source used for all copy on this website.
+
+* [Tomorrow](https://fonts.google.com/specimen/Tomorrow) is the primary font used for all headings, supplemented by sans-serif.
+* [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) is the secondary font - used for all paragraphs. It is aslo supplemented by sans-serif.
+
+### Imagery
+
+The website images are have all been produced by Tom Ogundimu. There are no copyright issues.
+
+### Wireframes
+
+Wireframes created for mobile, tablet and desktop.
+
+![Home Page Wireframe]
+
+![Profile Wireframe]
+
+![Portfolio Wireframe]
+
+![Contact Us Wireframe]
+
+### Features
+
+The website is made up of one main page and 4 unique sections. They are all accessible from the navigation menu (i.e. Home/Hero, Profile, Portfolio & Contact).
+
+* Home / Hero Section
+    * 
+
+### Accessibility
