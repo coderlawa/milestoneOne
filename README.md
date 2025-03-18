@@ -211,4 +211,17 @@ Testing this project was a continuous occurence throughout development. I used C
 
 The following issues were raised by my mentor during our mid-milestone catch-up;
 
-* 
+* Meta Description information to improve SEO.
+* Adding a header to the profile section.
+* Validating contact form field to ensure site visitors know exactly what information is required of them.
+* Links to external social sites open on new pages.
+
+### W3 Validators
+
+The well-known [W3 HTML](https://validator.w3.org/) was used to validate the all HTML codes & [W3 CSS](https://jigsaw.w3.org/css-validator/) was used for validating all CSS codes on this project.
+
+![W3 HTML](docs/HTML.png)
+![W3 CSS](docs/css.png)
+
+### Solved Bugs
+
