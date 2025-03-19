@@ -205,6 +205,12 @@ footer {
     font-size: 2rem;
 }
 
+/* CONFIRMATION ICON */
+#thumbs-up i {
+    font-size: 10rem;
+    color: var(--primary-color);
+}
+
 /* MEDIA QUERY */
 
 /* SMALL DEVICES (mobile phones) */
