@@ -196,7 +196,6 @@ footer {
 @media screen and (max-width: 576px) {
     img {
         width: 80vw;
-        min-height: 40vh;
     }
 
     #backToTop {
@@ -230,13 +229,5 @@ footer {
     img {
         width: auto;
         max-height: 40vh;
-    }
-}
-
-/* XXL DEVICES (desktops) */
-@media screen and (min-width: 1400px) {
-    img {
-        min-height: auto;
-        width: 30vw;
     }
 }
