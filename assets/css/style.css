@@ -66,6 +66,7 @@ strong {
      /* Adjust the padding as needed */
     padding: 0 10px;
     font-size: large;
+    font-family: var(--primary-font);
 }
 
 .links:hover {
@@ -90,7 +91,6 @@ strong {
     color: var(--primary-color);
     font-weight: bold;
     font-size: 17px;
-    font-family: var(--primary-font);
     flex-wrap: nowrap;
     display: inline-block;
     /* Adjust the padding as needed */
