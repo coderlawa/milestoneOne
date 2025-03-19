@@ -133,7 +133,8 @@ img {
 .custom-button-filled:hover {
     border: 2px solid var(--tetiary-color);
     background-color: var(--tetiary-color);
-    color: white;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 /* OVERFLOW BOX connected to tabs*/
