@@ -55,18 +55,8 @@ strong {
     display: none;
 }
 
-/* opaque back */
-.bg-opacity {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-/* NAVBAR */
-.navbar {
-    background-color: var(--tetiary-color);
-    min-height: 10vh;
-}
-
-.nav-link {
+.links,
+.tab {
     color: var(--primary-color);
     font-weight: bold;
     overflow-x: auto;
@@ -76,21 +66,57 @@ strong {
     /* Adjust the padding as needed */
 }
 
-.nav-link:hover {
+.links:hover,
+.tab:hover {
     background-color: var(--tetiary-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-decoration: underline;
     transition: color 0.3s ease-in-out;
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
 }
 
-.nav-link.active {
-    color: var(--secondary-color);
+.links.active,
+.tab.active {
+    color: var(--primary-color);
     /* Change this to your desired active color */
     background-color: var(--tetiary-color);
     /* Optional: Change background color for active link */
 }
+
+/* opaque back */
+.bg-opacity {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--secondary-color);
+    min-height: 10vh;
+}
+
+/* .nav-link {
+    color: var(--primary-color);
+    font-weight: bold;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0 10px;
+} */
+
+/* .nav-link:hover {
+    background-color: var(--tetiary-color);
+    color: var(--secondary-color);
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+} */
+
+/* .nav-link.active {
+    color: var(--secondary-color);
+    background-color: var(--tetiary-color);   
+} */
 
 /* HERO IMAGE */
 img {
