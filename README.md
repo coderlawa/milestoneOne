@@ -30,7 +30,15 @@ This website has been built to accomodate most visitors needs, regardless of the
     * [Languages Used](#languages-used)
     * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
+* [Doployment & Local Development](#deployment--local-development)
+    * [Deployment](#deployment)
+    * [Local Development](#local-development)
+        * [How to Clone](#how-to-clone)
 
+* [Testing](#testing)
+    * [W3 Validators](#w3-validators)
+    * [Solved Bugs](#solved-bugs)
+    * 
 - - -
 
 ## User Experience (UX)
@@ -59,7 +67,7 @@ CODERLAWA is the psuedonym used by Tom Ogundimu on GitHub. The site has been cre
 
 #### First Time Visitor Goals
 
-* I want to navigate the website easily to find info relevant to me needs.
+* I want to navigate the website easily to find info relevant to my needs.
 * I want to read about the developer's abilities.
 * I want to view previously completed sites.
 * I want to send the developer a message.
@@ -92,7 +100,7 @@ The website images are have all been produced by Tom Ogundimu. There are no copy
 
 ### Wireframes
 
-Wireframes created for mobile, tablet and desktop.
+Wireframes created for mobile, tablet, laptop and desktop.
 
 ![Home Page Wireframe]
 
@@ -153,13 +161,14 @@ I have adopted the best practices available for making websites usable to indivi
 HTML, CSS & Javascript have been used to create this website and its features.
 
 ### Frameworks, Libraries & Programs Used
- -- used to create Wireframes.
 
  [Am I Responsive?](https://ui.dev/amiresponsive) - for viewing website across different screen sizes at the same time.
 
 [Bootstrap (v5.3)](https://getbootstrap.com/) - codes for the navbar, tabs, cards and general site designing. More designing was done in the style.css file.
 
 [Birme](https://www.birme.net/) - for converting images to .webp format.
+
+[Canva](https://canva.com) - used to create Wireframes.
 
 [Favicon](https://favicon.io/) - used for this site's favicon.
 
@@ -225,3 +234,24 @@ The well-known [W3 HTML](https://validator.w3.org/) was used to validate the all
 
 ### Solved Bugs
 
+1. The "Home" option in the navigation menu stayed black regardless of the item selected - this was corrected by removing ".active" from the code.
+
+2. Profile tabs was cut off at one end on smaller screens even though the ".overflow-x-auto" class by Bootstrap had been implemented. Solved this issue by moving the "Portfolio" tab to its own stand-alone section and redesigned it.
+
+3. The text of the middle card caused mis-alignment whenever the the screen real-estate was 768px - this was resolved by media query.
+
+### Solving User Stories
+
+* First Time Visitors
+    * I want to navigate the website easily to find info relevant to my needs.
+
+    * I want to read about the developer's abilities.
+
+    * I want to view previously completed sites.
+
+    * I want to send the developer a message.
+
+* Frequent & Returning Visitors
+    * I want to find updates of the developer's portfolio.
+
+    * I want to send the developer a message.

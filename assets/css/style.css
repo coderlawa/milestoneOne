@@ -30,16 +30,16 @@ p {
     font-family: var(--secondary-font);
     font-weight: bold;
     text-align: center;
+    /* Change to desired color */
     color: var(--primary-color);
-    /* Change this to your desired color */
+    /* Adjust font size as needed */
     font-size: 16px;
-    /* Adjust the font size as needed */
-    line-height: 1.5;
-    /* Adjust the line height as needed */
+    /* Adjust line height as needed */
+    line-height: 1.5;    
 }
 
 .section {
-    /* to prevent navbar overlap */
+    /* to provide padding above selected section */
     padding-top: 5rem;
 }
 
