@@ -45,6 +45,7 @@ p {
 
 label {
     color: var(--primary-color);
+    font-weight: bold;
 }
 
 strong {
@@ -182,6 +183,14 @@ img {
 
 .card-body {
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.card-title,
+.card-text {
+    font-weight: bold;
+    text-align: center;
 }
 
 /* back to top button */
