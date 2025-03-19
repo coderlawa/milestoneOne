@@ -116,27 +116,27 @@ The website is made up of one main page divided into 4 leading sections . They a
 
 * Home / Hero Section
     * Intro ID - 
-    This section contains a quick introduction of the developer - name, role & a call to action message.
+    This section contains a quick introduction of the developer - name, role & a call to action message. Certain keywords in this section have been made "STRONG" to attract the attention of site visitors.
     * About ID - 
     This provides a bit more detail about the dev's motivations along with a picture for visual reference.
 
 * Profile Section
     * Profile ID - 
-    This section contains 3 tabs for 3 items (About, Education & Skills). Each tab gives site visitors more information into the dev's background.
+    This section contains 3 tabs for 3 items (About, Education & Skills). Each tab gives site visitors more information into the dev's background. A beat-fade animation has been added to the icon attached to this heading to draw the attention of visitors.
 
 * Portfolio Section
     * Portfolio ID - 
-    Housed within this section is some literature of what this section contains along with cards to show site visitors past projects.
+    Housed within this section is some literature of what this section contains along with cards to show site visitors past projects. A shake animation has been added to the icon attached to this heading to draw the attention of visitors.
 
 * Contact Section
     * Contact ID -
-    This is a form designed to give site visitors the ability to send a message to the dev. The form contains fields for full name, phone number, email, message & a submit button.
+    This is a form designed to give site visitors the ability to send a message to the dev. The form contains fields for full name, phone number, email, message & a submit button. A flip animation has been added to the icon attached to this heading to draw the attention of visitors.
 
 * Footer
     * Footer ID - 
     Contains links to direct site visitors to external links for the following professional social platforms; LinkedIn, GitHub & UpWork. It also contains footer text for copyright.
 
-* Back-To-Top button for helping site visitors get back to the top of the site without scrolling.
+* Back-To-Top button for helping site visitors get back to the top of the page without scrolling. The bounce animation has been added to the icon attached to this heading to draw the attention of visitors. This feature is only appears after visitors begin scrolling down the page.
 
 * Java Sripts -
     * Bootstrap script for bootstrap codes implemented into entire code body.
@@ -244,14 +244,20 @@ The well-known [W3 HTML](https://validator.w3.org/) was used to validate the all
 
 * First Time Visitors
     * I want to navigate the website easily to find info relevant to my needs.
+    The navigation bar at the top of the site has been designed to always remain visible to the site visitor regardless of the section they may be viewing.
 
     * I want to read about the developer's abilities.
+    The site has been populated with tabs containing the dev's profile to give FTVs a peak into the developer's background.
 
     * I want to view previously completed sites.
+    The portfolio section shows off projects completed by the developer and can be accessed from the navigation bar.
 
     * I want to send the developer a message.
+    This task can be completed using the contact form which is at the bottom of the website. It can also be accessed from the navigation menu.
 
 * Frequent & Returning Visitors
     * I want to find updates of the developer's portfolio.
+    A portfolio section has been created to fulfill this need and will be updated with new content as the developer progresses in his career.
 
     * I want to send the developer a message.
+    Similar to the needs of FTVs, a contact form has been provided at the bottom of this project along with links to the developer's professional social profiles.
