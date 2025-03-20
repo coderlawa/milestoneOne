@@ -198,9 +198,10 @@ The website is made up of one main page divided into 4 leading sections . They a
 
 I have adopted the best practices available for making websites usable to individuals who depend on screen-readers by making this project as accessible as possible by;
 
-* Using semantic HTML.
-* Using descriptive "alt" attributes on images.
-* Ensuring sufficient color contrast throughout the site.
+* Used semantic HTML.
+* Used descriptive "alt" attributes on images.
+* Ensured sufficient color contrast throughout the site.
+* Added animated icons to attract the attention of users.
 
 - - -
 
