@@ -146,6 +146,8 @@ The website is made up of one main page divided into 4 leading sections . They a
 
     This section solves the problem identified in the [First Time Visitor's Goal](#first-time-visitor-goals).
 
+    ![Home / Hero Section](docs/navbar.png)
+
     * About ID - 
     This provides a bit more detail about the dev's motivations along with a picture for visual reference.
 
@@ -157,17 +159,23 @@ The website is made up of one main page divided into 4 leading sections . They a
 
     This section also solves the [First Time Visitor's Goal](#first-time-visitor-goals).
 
+    ![Profile Section](docs/profile.png)
+
 * Portfolio Section
     * Portfolio ID - 
     Housed within this section is some literature of what this section contains along with cards to show site visitors past projects. A shake animation has been added to the icon attached to this heading to draw the attention of visitors.
 
     This feature solves the goals of all site visitors (i.e. both [First Time Visitors](#first-time-visitor-goals) & [Frequent / Returning Visitors](#frequent--returning-visitor-goals)).
 
+    ![Portfolio Section](docs/portfolio.png)
+
 * Contact Section
     * Contact ID -
     This is a form designed to give site visitors the ability to send a message to the dev. The form contains fields for full name, phone number, email, message & a submit button. A flip animation has been added to the icon attached to this heading to draw the attention of visitors.
 
     This section also solves all the goals of site visitors (i.e. both [First Time Visitors](#first-time-visitor-goals) & [Frequent / Returning Visitors](#frequent--returning-visitor-goals)).
+
+    ![Contact Section](docs/contact.png)
 
 * Footer
     * Footer ID - 
@@ -285,6 +293,22 @@ The well-known [W3 HTML](https://validator.w3.org/) was used to validate the all
 
 4. The hero image became elongated when viewed on a tablet screen.
 
-    * SOLUTION: I inspected the element's css and realised it did not need height coded in. This was done after discussing with my Mentor (Graeme Taylor).
+    * SOLUTION - I inspected the element's css and realised it did not need height coded in. This was done after discussing with my Mentor (Graeme Taylor).
+
+5. Testing the site on [Wave Webaim](https://wave.webaim.org/) revealed there was poor contrast between the nav-bar in relation to the text used for the nav-links.
+
+    * SOLUTION - I reduced opacity of the nav bar and made nav-links have a lighter background when hovered.
+
+![Wave Webaim](docs/contrast.png)
+
+6. The contact us form previously did not provide site users any sort of feedback when all fields are filled and the submit button is clicked.
+
+    * SOLUTION - After discussing with my mentor, he showed me with resources that send visitors to a new page and return to the home page after 5 seconds.
 
 ### Lighthouse
+
+I used the Lighthouse Google Chrome Developer Tool to perform tests on performance, accessibility, best practices of the website.
+
+![Light House - Desktop](docs/lighthouse-desktop.png)
+
+![Light House - Mobile](docs/lighthouse-mobile.png)
