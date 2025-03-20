@@ -100,15 +100,37 @@ The website images are have all been produced by Tom Ogundimu. There are no copy
 
 ### Wireframes
 
-Wireframes created for mobile, tablet, laptop and desktop.
+Wireframes created for mobile, tablet and desktop.
 
-![Home Page Wireframe]
+#### HOME PAGE
+* MOBILE HOME PAGE
+![Home Page - mobile](docs/wireframes/phone-home.png)
+* TABLET HOME PAGE
+![Home Page - tablet](docs/wireframes/tablet-home.png)
+* DESKTOP HOME PAGE
+![Home Page - desktop](docs/wireframes/desktop-home.png)
 
-![Profile Wireframe]
+#### PROFILE
+* MOBILE PROFILE SECTION
+![Profile - mobile](docs/wireframes/phone-profile.png)
+* TABLET PROFILE & PORTFOLIO SECTIONS
+![Profile - tablet](docs/wireframes/tablet-profile+portfolio.png)
+* DESKTOP PROFILE SECTION
+![Profile - desktop](docs/wireframes/desktop-profile.png)
 
-![Portfolio Wireframe]
+#### PORTFOLIO
+* MOBILE PORTFOLIO SECTION
+![Portfolio - mobile](docs/wireframes/phone-portfolio.png)
+* DESKTOP PORTFOLIO SECTION
+![Portfolio - desktop](docs/wireframes/desktop-portfolio.png)
 
-![Contact Us Wireframe]
+#### CONTACT
+* MOBILE CONTACT SECTION
+![Contact - mobile](docs/wireframes/phone-contact.png)
+* TABLET CONTACT SECTION
+![Contact - tablet](docs/wireframes/tablet-contact.png)
+*DESKTOP CONTACT SECTION
+![Contact - desktop](docs/wireframes/desktop-contact.png)
 
 ### Features
 

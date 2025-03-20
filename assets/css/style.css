@@ -138,10 +138,6 @@ img {
     font-weight: bold;
 }
 
-.cutom-button:checked {
-    background-color: var(--primary-color);
-    color: white;
-}
 /* OVERFLOW BOX connected to tabs*/
 
 .overflow-box {
@@ -245,7 +241,6 @@ footer {
 @media screen and (min-width: 992px) {
     img {
         width: 48vw;
-        min-height: 50vh;
     }
 }
 
