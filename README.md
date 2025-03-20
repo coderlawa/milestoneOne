@@ -43,6 +43,10 @@ This website has been built to accomodate most visitors needs, regardless of the
     * [W3 Validators](#w3-validators)
     * [Solved Bugs](#solved-bugs)
     * [Lighthouse](#lighthouse)
+
+* [Conclusion](#conclusion)
+
+* [Acknowledgement](#acknowledgement)
 - - -
 
 ## User Experience (UX)
@@ -309,6 +313,20 @@ The well-known [W3 HTML](https://validator.w3.org/) was used to validate the all
 
 I used the Lighthouse Google Chrome Developer Tool to perform tests on performance, accessibility, best practices of the website.
 
+* see the final lighthouse test results below
+
 ![Light House - Desktop](docs/lighthouse-desktop.png)
 
 ![Light House - Mobile](docs/lighthouse-mobile.png)
+
+## Conclusion
+
+The project was visited from a wide range of browsers from different devices in order to extensively test its responsiveness and I am glad to report its has been a huge success so far. I hope you also find the website fun to navigate and interact with and if you wish to actually reach out to me, send a message here - <strong> tom.ogun@icloud.com
+
+## Acknowledgement
+
+I want to thank;
+
+Graeme Taylor - my mentor on this Code Institute programme for providing me with resources to make my experiece better.
+
+Manuel Romero - my tutor for directing to me to all the personnel available to me during my learning.
