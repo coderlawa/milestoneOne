@@ -98,7 +98,7 @@ This website uses a palette of greens to provide visitors a healthy visual exper
 
 ### Typography
 
-[Google Fonts](https://fonts.google.com/) is the exclusive source used for all copy on this website.
+[Google Fonts](https://fonts.google.com/) is the exclusive source used for all copy on this website. The fonts listed below were selected for their futuristic appearance with the intention of putting site visitors in the mindset of conquering new frontiers.
 
 * [Tomorrow](https://fonts.google.com/specimen/Tomorrow) is the primary font used for all headings, supplemented by sans-serif.
 * [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) is the secondary font - used for all paragraphs. It is aslo supplemented by sans-serif.
