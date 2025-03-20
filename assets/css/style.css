@@ -121,7 +121,7 @@ img {
 
 /* Buttons */
 
-.custom-button-filled {
+.custom-button {
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
     color: white;
@@ -131,13 +131,17 @@ img {
     font-weight: bold;
 }
 
-.custom-button-filled:hover {
+.custom-button:hover {
     border: 2px solid var(--tetiary-color);
     background-color: var(--tetiary-color);
     color: var(--primary-color);
     font-weight: bold;
 }
 
+.cutom-button:checked {
+    background-color: var(--primary-color);
+    color: white;
+}
 /* OVERFLOW BOX connected to tabs*/
 
 .overflow-box {
@@ -206,7 +210,7 @@ footer {
 }
 
 /* CONFIRMATION ICON */
-#thumbs-up i {
+#confirmation i {
     font-size: 10rem;
     color: var(--primary-color);
 }
