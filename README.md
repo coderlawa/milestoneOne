@@ -42,6 +42,7 @@ This website has been built to accomodate most visitors needs, regardless of the
 * [Testing](#testing)
     * [W3 Validators](#w3-validators)
     * [Solved Bugs](#solved-bugs)
+    * [Known Bugs](#known-bugs)
     * [Lighthouse](#lighthouse)
 
 * [Conclusion](#conclusion)
@@ -308,6 +309,12 @@ The well-known [W3 HTML](https://validator.w3.org/) was used to validate the all
 6. The contact us form previously did not provide site users any sort of feedback when all fields are filled and the submit button is clicked.
 
     * SOLUTION - After discussing with my mentor, he showed me with resources that send visitors to a new page and return to the home page after 5 seconds.
+
+### Known Bugs
+
+1. Active profile tabs have a white background and black text rather than a shade of green to fit in to the site's theme.
+
+2. Buttons & Social Links turn blue when clicked.
 
 ### Lighthouse
 
