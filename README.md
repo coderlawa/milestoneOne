@@ -380,6 +380,10 @@ The well-known [W3 HTML](https://validator.w3.org/) was used to validate the all
 
     * SOLUTION - After discussing with my mentor, he showed me with resources that send visitors to a new page and return to the home page after 5 seconds.
 
+7. The contrast strip used for the footer did not extend from end-to-end, initially.
+   
+    * SOLUTION - I used .container-fluid class rather than just .container (used in the navigation section).
+
 ### Known Bugs
 
 1. Active profile tabs have a white background and black text rather than a shade of green to fit in to the site's theme.
@@ -395,6 +399,10 @@ I used the Lighthouse Google Chrome Developer Tool to perform tests on performan
 ![Light House - Desktop](docs/lighthouse-desktop.png)
 
 ![Light House - Mobile](docs/lighthouse-mobile.png)
+
+## Credits
+
+ * The idea to contruct this website was gotten from the Bootstrap learning material provided by Code Institute.
 
 ## Conclusion
 
