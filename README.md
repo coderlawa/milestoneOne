@@ -45,6 +45,8 @@ This website has been built to accomodate most visitors needs, regardless of the
     * [Known Bugs](#known-bugs)
     * [Lighthouse](#lighthouse)
 
+* [Credits](#credits)
+
 * [Conclusion](#conclusion)
 
 * [Acknowledgement](#acknowledgement)
@@ -403,6 +405,8 @@ I used the Lighthouse Google Chrome Developer Tool to perform tests on performan
 ## Credits
 
  * The idea to contruct this website was gotten from the Bootstrap learning material provided by Code Institute.
+
+ * Transition in links:hover class was gotten from the Boardwalk Games learning material provided by Code Institute.
 
 ## Conclusion
 
