@@ -188,6 +188,8 @@ The website is made up of one main page divided into 4 leading sections . They a
 
 * Back-To-Top button (located at the BOTTOM RIGHT) for helping site visitors get back to the top of the page without needing to scroll back up. The bounce animation has been added to the icon attached to this heading to draw the attention of visitors. This feature is only appears after visitors begin scrolling down the page.
 
+The foundation for this feature was achieved by prompting [ChatGPT](https://chatgpt.com/)
+
 * Java Sripts -
     * Bootstrap script for bootstrap codes implemented into entire code body.
     * Font Awesome script for font awesome icons used in project.
@@ -267,14 +269,81 @@ To clone this site, do the following;
 
 ## Testing
 
-Testing this project was a continuous occurence throughout development. I used Chrome Developer Tools (Light house) while building to identify and issues through the project life.
-
 The following issues were raised by my mentor during our mid-milestone catch-up;
 
 * Meta Description information to improve SEO.
 * Adding a header to the profile section.
 * Validating contact form field to ensure site visitors know exactly what information is required of them.
 * Links to external social sites open on new pages.
+
+Testing this project was a continuous occurence throughout development. The following were tested;
+
+1. Funtional Testing
+    * Navigation
+        * Verified all menu links (i.e. Home, Profile, Portfolio & Contact) navigate to the correct sections.
+        
+        * Ensured all other buttons, such as "View Project" & "Submit" were clickable. Buttons to external links created new tabs.
+
+    * Forms
+        * All input fields are properly validated.
+
+        * Clicking the submit button sends users to the Confirmation page.
+
+    * Content Verification
+        * All text are grammartically correct.
+
+        * Images loaded correctly and have correct alt text.
+
+2. Usability Testing
+    * Layout & Design
+        * Checked for consistent layout, font usage and color scheme on all pages.
+
+        * Ensured website's design is visually appealing and aligns with branding goal.
+
+    * User Interaction
+        * Verified interactive elements provide visual feedback on hover / click.
+
+        * Assessed the intuitiveness of the navigation and overall user flow.
+
+3. Compatibility Testing
+    * Cross-Browser Compatibility
+        * Tested the website on various browsers (Chrome, Firefox, Safari, Edge, Opera) to ensure consistent appearance and functionality.
+
+    * Responsive Design
+        * Verified the website displayed correctly on different devices and screen resolutions.
+
+        * Checked for proper alignment, readability and funtionality on both portrait and landscape orientations.
+
+4. Performance Testing
+    * Loading Speed
+        * Measured page loading time to ensure it meets acceptable performance standards.
+
+    * Media Performance
+        * Ensured images load efficiently without degrading page performance.
+
+5. Accessibility Testing
+    * Keyboard Navigation
+        * Confirmed all interactive elements are accessible via keyboard navigation.
+
+    * Screen Reader Compatibility
+        * Tested the website with screen readers (on Safari browser) to ensure readable content is available to visually impaired users.
+
+    * Color Contrast
+        * Verified text and background color combinations provide sufficient contrast for readability.
+
+6. Security Testing
+    * Form Security
+        * Ensured form submissions are protected against common vulnerabilities like SQL injection and cross-site scripting (XSS).
+    
+    * HTTPS Verification
+        * Confirmed the website uses HTTPS to secure data transmission.
+
+7. Content Testing
+    * Accuracy and Relevance
+        * Verified all information, including project details in the Portfolio section, is accurate and up-to-date.
+    
+    * Meta Information
+        * Ensured each page has appropriate meta titles and descriptions for SEO purposes.    
 
 ### W3 Validators
 
