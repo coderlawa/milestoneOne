@@ -18,7 +18,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4{
     font-family: var(--primary-font);
     text-align: center;
     color: var(--primary-color);
@@ -76,6 +77,7 @@ strong {
     transition: color 0.3s ease-in-out;
     -webkit-transition: color 0.3s ease-in-out;
     -o-transition: color 0.3s ease-in-out;
+    width: auto;
 }
 
 .links.active,
@@ -84,6 +86,10 @@ strong {
     /* Change this to your desired active color */
     background-color: var(--tetiary-color);
     /* Optional: Change background color for active link */
+}
+
+.dropdown-menu {
+    background-color: var(--secondary-color);
 }
 
 /* TABS */
